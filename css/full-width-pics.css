@@ -35,8 +35,32 @@ body {
   margin: 10px auto;
 }
 
-.carousel-inner{
-  display: block;
-  height: 400px;
-  width: auto;
+@media (max-width: 575px) {
+  .image-spacer{
+    height: 200px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .image-spacer{
+    height: 250px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .image-spacer{
+    height: 250px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .image-spacer{
+    height: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-spacer{
+    height: 400px;
+  }
 }
